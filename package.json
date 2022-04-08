@@ -11,7 +11,7 @@
     "start": "node .",
     "build": "tsc",
     "dev": "ts-node ./src/index.ts",
-    "test": "c8 ava"
+    "test": "c8 --reporter=lcov ava"
   },
   "ava": {
     "extensions": [
